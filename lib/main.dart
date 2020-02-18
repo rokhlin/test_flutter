@@ -65,7 +65,7 @@ class MovieListWidget extends StatelessWidget {
       var movieitem = Padding(
         padding: EdgeInsets.symmetric(vertical: 15.0, horizontal: 12.0),
         child: GestureDetector(
-          onTap: navigateToDetailPage(context, movies[i]),
+          onTap: () => navigateToDetailPage(context, movies[i]),
           child: Container(
           //  height: 220.0,
           // width: 196.0,
