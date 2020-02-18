@@ -8,26 +8,48 @@ import 'package:test_flutter/widgets/mc_clipper.dart';
 
 class DetailItemPage extends StatelessWidget {
   final MediaObject mediaObject;
+  bool isPortrait;
 
   DetailItemPage(this.mediaObject);
 
   @override
   Widget build(BuildContext context) {
+    isPortrait = CommonThings.size.height > CommonThings.size.width;
+    print("-------isPortrait: $isPortrait");
+
     return Scaffold(
-        body: Container(
-      height: CommonThings.size.height,
-      width: CommonThings.size.width,
-      child: Column(
-        children: <Widget>[MainPart(mediaObject), BottomPart(mediaObject)],
-      ),
-    ));
+      body: Container(
+          height: CommonThings.size.height,
+          width: CommonThings.size.width,
+          child: SingleChildScrollView(
+            scrollDirection: isPortrait ? Axis.vertical : Axis.horizontal,
+            child: isPortrait
+                ? Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: <Widget>[
+                      MainPart(mediaObject,isPortrait),
+                      BottomPart(mediaObject, isPortrait)
+                    ],
+                  )
+                : Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: <Widget>[
+                      MainPart(mediaObject, isPortrait),
+                      BottomPart(mediaObject,isPortrait)
+                    ],
+                  ),
+          )),
+    );
   }
 }
 
 class BottomPart extends StatelessWidget {
   MediaObject mediaObject;
+  bool isPortrait;
 
-  BottomPart(this.mediaObject);
+  BottomPart(this.mediaObject, this.isPortrait);
 
   @override
   Widget build(BuildContext context) {
@@ -116,7 +138,7 @@ class MainPart extends StatelessWidget {
   MediaObject mediaObject;
   double mainPageHeight;
   double mainPageWidth;
-
+  bool isPortrait;
   getMainPageSize(double screenHeight, double screenWidth, double aspectRatio) {
     String orientation = screenHeight > screenWidth ? "portrait" : "landscape";
     print(
@@ -127,11 +149,14 @@ class MainPart extends StatelessWidget {
       mainPageWidth =
           aspectRatio > 1 ? screenWidth : screenWidth / (aspectRatio * 2);
     } else {
-      print("Not IMplemented for Lanscape mode");
+      print("Not Implemented for Lanscape mode");
+      mainPageHeight = screenWidth - (screenWidth / 10);
+      mainPageWidth =
+          aspectRatio > 1 ? screenWidth : screenWidth / (aspectRatio * 2);
     }
   }
 
-  MainPart(this.mediaObject) {
+  MainPart(this.mediaObject, this.isPortrait) {
     getMainPageSize(CommonThings.size.height, CommonThings.size.width,
         CommonThings.size.aspectRatio);
   }
@@ -156,10 +181,10 @@ class MainPart extends StatelessWidget {
                     image: AdvancedNetworkImage(
                         mediaObject.mediaAssets.imagePaths[3].xDefault),
                     fit: BoxFit.cover,
-                    width: double.infinity),
+                    width: isPortrait? double.infinity: mainPageWidth/2 - mainPageWidth/10),
                 Container(
                   height: double.infinity,
-                  width: double.infinity,
+                  width: isPortrait? double.infinity : mainPageWidth/2,
                   decoration: BoxDecoration(
                       gradient: LinearGradient(
                           colors: [

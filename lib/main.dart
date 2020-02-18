@@ -1,9 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_networkimage/provider.dart';
 import 'package:test_flutter/entity/MediaObject.dart';
-import 'package:test_flutter/navigation/navigator.dart';
 import 'package:test_flutter/repository/MediaOdjectsRepository.dart';
+import 'package:test_flutter/widgets/movie_item.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -53,74 +52,21 @@ class MovieListWidget extends StatelessWidget {
         child: GridView.count(
           crossAxisCount: numOfColums,
           childAspectRatio: 0.7,
-          children: getMovieList(context, data),
+          children: getMovieList(context, data, numOfColums),
         ),
       );
   }
 
-  List<Widget> getMovieList(BuildContext context, List<MediaObject> movies) {
+  List<Widget> getMovieList(BuildContext context, List<MediaObject> movies, int numOfColums) {
     List<Widget> movieList = new List();
     for (int i = 0; i < movies.length; i++) {
       print("Attempt to load: ${movies[i].toString()} \n   - imagePath: ${movies[i].mediaAssets?.imagePaths[2].xDefault}");
-      var movieitem = Padding(
-        padding: EdgeInsets.symmetric(vertical: 15.0, horizontal: 12.0),
-        child: GestureDetector(
-          onTap: () => navigateToDetailPage(context, movies[i]),
-          child: Container(
-          //  height: 220.0,
-          // width: 196.0,
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(20.0),
-                topLeft: Radius.circular(20.0),
-                bottomRight: Radius.circular(20.0),
-                topRight: Radius.circular(20.0),
-
-              ),
-              color: Colors.white,
-              boxShadow: [
-                BoxShadow(
-                    color: Colors.black12,
-                    blurRadius: 10.0,
-                    offset: Offset(0.0, 10.0))
-              ]),
-          child: Column(
-
-            children: <Widget>[
-              ClipRRect(
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(20.0),
-                    topRight: Radius.circular(20.0)),
-                child: Image(
-                  image: AdvancedNetworkImage(movies[i].mediaAssets?.imagePaths[2].xDefault, useDiskCache: true),
-                  width: double.infinity,
-                  height:  CommonThings.size.width/(numOfColums+2),
-                  fit: BoxFit.cover,
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
-                child: Text(movies[i].title,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        fontSize: 16.0, fontFamily: "SF-Pro-Display-Bold")),
-              ),
-              Padding(
-                padding: EdgeInsets.only(top: 3.0),
-                child: Text(
-                    movies[i].mediaAssets?.imagePaths[2].originTag == null ? "" :
-                    movies[i].mediaAssets?.imagePaths[2].originTag),
-              )
-            ],
-          ),
-        )),
-      );
-      movieList.add(movieitem);
+      var movieItem = MovieItem(movies[i], numOfColums);
+      movieList.add(movieItem);
     }
     return movieList;
   }
 }
-
 
 
 class CommonThings {
@@ -134,43 +80,58 @@ class _HomeState extends State<MyApp> {
 
   static MediaObjectsRepository repository = LocalMediaObjectsRepository();
 
-   getMovies() async {
-    mediaObjects = await repository.fetchMovies();
+  getMovies() async {
+    if (mediaObjects.isEmpty) {
+      await repository.fetchMovies().then((data) {
+        setState(() {
+          mediaObjects = data;
+        });
+      });
+    }
   }
 
   @override
   Widget build(BuildContext context) {
+    Widget loadingIndicator = mediaObjects.isEmpty ? new Container(
+      color: Colors.transparent,
+      width: 70.0,
+      height: 70.0,
+      child: new Padding(padding: const EdgeInsets.all(5.0),child: new Center(child: new CircularProgressIndicator())),
+    ):new Container();
+
     CommonThings.size = MediaQuery.of(context).size;
     getMovies();
+    return Stack(children: <Widget>[
+      Scaffold(
+        body: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[ new MovieListWidget() ],
+          ),
+        ),
 
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[ new MovieListWidget() ],
+        bottomNavigationBar: BottomNavigationBar(
+          currentIndex: 0,
+          type: BottomNavigationBarType.fixed,
+          onTap: (int index) {
+            setState(() { _numOfColumns = 4 - index; });
+          },
+          items: [
+            BottomNavigationBarItem(
+                icon: Icon(Icons.add_to_photos, color: Color(0xFFE52020)),
+                title: Text("4 columns", style: TextStyle(color: Color(0xFFE52020)))),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.add_to_photos,),
+                title: Text("3 columns", style: TextStyle())),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.add_to_photos,),
+                title: Text("2 columns",)),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.add_to_photos),
+                title: Text("1 column"))
+          ],
         ),
       ),
-
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0,
-        type: BottomNavigationBarType.fixed,
-        onTap: (int index) {
-              setState(() { _numOfColumns = 6 - index; });
-        },
-        items: [
-          BottomNavigationBarItem(
-              icon: Icon(Icons.home, color: Color(0xFFE52020)),
-              title: Text("6 columns", style: TextStyle(color: Color(0xFFE52020)))),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.search,),
-              title: Text("5 columns", style: TextStyle())),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.bookmark_border,),
-              title: Text("4 columns",)),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.person_outline),
-              title: Text("3 columns"))
-        ],
-      ),
-    );
+      Align(child: loadingIndicator,alignment: FractionalOffset.center,),
+    ],);
   }
 }
