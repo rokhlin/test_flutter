@@ -1,0 +1,995 @@
+{
+  "items": [
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    },
+    {
+      "_id": "5cddab40b7b7d200127f2589",
+      "isActive": true,
+      "isRemoved": false,
+      "isLocked": false,
+      "CreatedDateTime": "2019-05-16T18:26:08.266Z",
+      "ModifiedDateTime": "2020-01-25T03:45:05.759Z",
+      "Version": 1,
+      "assetName": "",
+      "description": "Anderson Cooper with an interview with Howard Stern.",
+      "title": "Anderson Cooper 360",
+      "headline": "",
+      "language": "ENGLISH",
+      "authenticationRequired": true,
+      "videoID": "urn:ngtv-show:118511",
+      "totalRunTime": 3556,
+      "episodeName": "AC360: The Howard Stern Interview",
+      "mediaAssets": {
+        "imagePaths": [
+          {
+            "aspect": "r16x5",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/8dc04d60-16x5.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r16x9",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/7de21b80-16x9.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "r3x4",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/95876bf0-3x4.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          },
+          {
+            "aspect": "1x1",
+            "default": "https://dynaimage.cdn.turner.com/artemis/artemis/org/36b7aa20-ac360_1x1.jpg",
+            "background": "https://dynaimage.cdn.turner.com/artemis/artemis/org/87617160-bg.jpg",
+            "originTag": "episode"
+          }
+        ]
+      },
+      "tmsID": "EP006062993483",
+      "isHD": false,
+      "orgReleaseDate": "0001-01-01T00:00:00.000Z",
+      "lastReleaseDate": "0001-01-01T00:00:00.000Z",
+      "sourceID": "2196659",
+      "sourceSystemName": "turniverse",
+      "sourceData": "turniverse",
+      "tmHasBeenProcessed": true,
+      "tmProcessingStatus": "record processed with time machine data",
+      "linearAirDateTime": "2019-05-25T02:00:00.000Z",
+      "originalPremiereDate": "2013-03-16T03:00:00.000Z",
+      "titleType": "News Episode",
+      "episodeNumber": "19052422",
+      "seasonNumber": "2019",
+      "titleID": 2196659,
+      "seriesTitleID": 980443,
+      "__t": "vodShowEpisode",
+      "__v": 1,
+      "subTitle": "Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.",
+      "rating": "NA"
+    }
+
+  ]
+}
