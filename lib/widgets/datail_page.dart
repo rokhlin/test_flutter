@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
 import 'package:test_flutter/entity/MediaObject.dart';
 import 'package:test_flutter/main.dart';
+import 'package:test_flutter/navigation/navigator.dart';
 import 'package:test_flutter/widgets/mc_clipper.dart';
 
 class DetailItemPage extends StatelessWidget {
@@ -216,13 +217,16 @@ class MainPart extends StatelessWidget {
                         EdgeInsets.symmetric(vertical: 15.0, horizontal: 80.0),
                     child: Row(
                       children: <Widget>[
-                        Text(
-                          "Play Now",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 15.0,
-                              fontFamily: "SF-Pro-Display-Bold"),
-                        ),
+                        GestureDetector(
+                            onTap: () =>
+                                navigateToVideoPage(context, mediaObject),
+                            child: Text(
+                              "Play Now",
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15.0,
+                                  fontFamily: "SF-Pro-Display-Bold"),
+                            )),
                         SizedBox(
                           width: 5.0,
                         ),

@@ -2,9 +2,17 @@
 import 'package:flutter/material.dart';
 import 'package:test_flutter/entity/MediaObject.dart';
 import 'package:test_flutter/widgets/datail_page.dart';
+import 'package:test_flutter/widgets/video_player_page.dart';
 
 navigateToDetailPage(BuildContext context, MediaObject mediaObject){
   Navigator.of(context).push(
     MaterialPageRoute(builder: (context) => DetailItemPage(mediaObject),
   ));
+}
+
+
+navigateToVideoPage(BuildContext context, MediaObject mediaObject){
+  Navigator.of(context).push(
+      MaterialPageRoute(builder: (context) => VideoPage(mediaObject),
+      ));
 }
