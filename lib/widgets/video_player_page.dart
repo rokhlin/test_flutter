@@ -1,4 +1,4 @@
-import 'package:test_flutter/entity/MediaObject.dart';
+import 'package:test_flutter/model/MediaObject.dart';
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
 

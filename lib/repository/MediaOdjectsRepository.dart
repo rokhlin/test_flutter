@@ -1,8 +1,8 @@
 
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:test_flutter/entity/MediaObject.dart';
-import 'package:test_flutter/entity/MediaObjectList.dart';
+import 'package:test_flutter/model/MediaObject.dart';
+import 'package:test_flutter/model/MediaObjectList.dart';
 
 class MediaObjectsRepository {
     Future<List<MediaObject>> fetchMovies(){}

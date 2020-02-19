@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
-import 'package:test_flutter/entity/MediaObject.dart';
+import 'package:test_flutter/model/MediaObject.dart';
 import 'package:test_flutter/navigation/navigator.dart';
 import 'package:test_flutter/widgets/main_page/main_page.dart';
 

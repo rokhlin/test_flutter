@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:test_flutter/entity/MediaObject.dart';
+import 'package:test_flutter/model/MediaObject.dart';
 import 'package:test_flutter/repository/MediaOdjectsRepository.dart';
 import 'package:test_flutter/widgets/main_page/movie_list_widget.dart';
 
@@ -9,27 +9,6 @@ class MainPage extends StatefulWidget {
 
   @override
   _HomeState createState() => new _HomeState();
-
-//  @override
-//  Widget build(BuildContext context) {
-//    return new Container(
-//      height: CommonThings.size.height,
-//      //margin: EdgeInsets.only(left: 65.0),
-//      child: Column(
-//        children: <Widget>[
-//          Padding(
-//            padding: EdgeInsets.symmetric(horizontal: 10.0),
-//            child: Row(
-//              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//              children: <Widget>[
-//                new MovieListWidget(_HomeState._numOfColumns, _HomeState.mediaObjects),
-//              ],
-//            ),
-//          ),
-//        ],
-//      ),
-//    );
-//  }
 }
 
 class CommonThings {

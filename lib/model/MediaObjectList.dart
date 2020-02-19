@@ -1,7 +1,7 @@
 
 
 import 'package:json_annotation/json_annotation.dart';
-import 'package:test_flutter/entity/MediaObject.dart';
+import 'package:test_flutter/model/MediaObject.dart';
 
 part 'MediaObjectList.g.dart';
 

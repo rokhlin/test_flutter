@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:test_flutter/entity/MediaAsset.dart';
+import 'package:test_flutter/model/MediaAsset.dart';
 
 part 'MediaObject.g.dart';
 
