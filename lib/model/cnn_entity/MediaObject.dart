@@ -1,10 +1,10 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:test_flutter/model/MediaAsset.dart';
+import 'package:test_flutter/model/cnn_entity/MediaAsset.dart';
 
 part 'MediaObject.g.dart';
 
 @JsonSerializable()
-class MediaObject {
+class CNNMediaObject {
 	@JsonKey(name: "_id")
 	String sId;
 	bool isActive;
@@ -50,7 +50,7 @@ class MediaObject {
 	String subTitle;
 	String rating;
 
-	MediaObject(this.sId, this.isActive, this.isRemoved, this.isLocked,
+	CNNMediaObject(this.sId, this.isActive, this.isRemoved, this.isLocked,
 			this.createdDateTime, this.modifiedDateTime, this.version, this.assetName,
 			this.description, this.title, this.headline, this.language,
 			this.authenticationRequired, this.videoID, this.totalRunTime,
@@ -63,9 +63,9 @@ class MediaObject {
 			this.subTitle, this.rating);
 
 
-	factory MediaObject.fromJson(Map<String, dynamic> json) => _$MediaObjectFromJson(json);
+	factory CNNMediaObject.fromJson(Map<String, dynamic> json) => _$CNNMediaObjectFromJson(json);
 
-	Map<String, dynamic> toJson() => _$MediaObjectToJson(this);
+	Map<String, dynamic> toJson() => _$CNNMediaObjectToJson(this);
 
 
 }

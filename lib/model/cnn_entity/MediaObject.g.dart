@@ -6,8 +6,8 @@ part of 'MediaObject.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-MediaObject _$MediaObjectFromJson(Map<String, dynamic> json) {
-  return MediaObject(
+CNNMediaObject _$CNNMediaObjectFromJson(Map<String, dynamic> json) {
+  return CNNMediaObject(
     json['_id'] as String,
     json['isActive'] as bool,
     json['isRemoved'] as bool,
@@ -50,7 +50,7 @@ MediaObject _$MediaObjectFromJson(Map<String, dynamic> json) {
   );
 }
 
-Map<String, dynamic> _$MediaObjectToJson(MediaObject instance) =>
+Map<String, dynamic> _$CNNMediaObjectToJson(CNNMediaObject instance) =>
     <String, dynamic>{
       '_id': instance.sId,
       'isActive': instance.isActive,

@@ -6,16 +6,17 @@ part of 'MediaObjectList.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-MediaObjectList _$MediaObjectListFromJson(Map<String, dynamic> json) {
-  return MediaObjectList(
+CNNMediaObjectList _$CNNMediaObjectListFromJson(Map<String, dynamic> json) {
+  return CNNMediaObjectList(
     (json['items'] as List)
-        ?.map((e) =>
-            e == null ? null : MediaObject.fromJson(e as Map<String, dynamic>))
+        ?.map((e) => e == null
+            ? null
+            : CNNMediaObject.fromJson(e as Map<String, dynamic>))
         ?.toList(),
   );
 }
 
-Map<String, dynamic> _$MediaObjectListToJson(MediaObjectList instance) =>
+Map<String, dynamic> _$CNNMediaObjectListToJson(CNNMediaObjectList instance) =>
     <String, dynamic>{
       'items': instance.items,
     };

@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
-import 'package:test_flutter/model/MediaObject.dart';
+import 'package:test_flutter/model/cnn_entity/MediaObject.dart';
+import 'package:test_flutter/model/media_object.dart';
 import 'package:test_flutter/navigation/navigator.dart';
 import 'package:test_flutter/widgets/main_page/main_page.dart';
 import 'package:test_flutter/widgets/mc_clipper.dart';
@@ -52,7 +53,7 @@ class PosterPart extends StatelessWidget {
               children: <Widget>[
                 Image(
                     image: AdvancedNetworkImage(
-                        mediaObject.mediaAssets.imagePaths[3].xDefault,
+                        mediaObject.images.values.first.path,
                         useDiskCache: true),
                     fit: BoxFit.cover,
                     width: isPortrait

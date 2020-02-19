@@ -1,8 +1,7 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:test_flutter/model/MediaObject.dart';
-import 'package:test_flutter/repository/MediaOdjectsRepository.dart';
+import 'package:test_flutter/model/media_object.dart';
+import 'package:test_flutter/repository/local_asset_repository.dart';
+import 'package:test_flutter/repository/media_objects_repository.dart';
 import 'package:test_flutter/widgets/main_page/movie_list_widget.dart';
 
 class MainPage extends StatefulWidget {
@@ -14,7 +13,6 @@ class MainPage extends StatefulWidget {
 class CommonThings {
   static Size size;
 }
-
 
 class _HomeState extends State<MainPage> {
   int _numOfColumns = 3;

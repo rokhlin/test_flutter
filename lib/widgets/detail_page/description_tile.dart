@@ -1,7 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:test_flutter/model/MediaObject.dart';
+import 'package:test_flutter/model/cnn_entity/MediaObject.dart';
+import 'package:test_flutter/model/media_object.dart';
 import 'package:test_flutter/widgets/main_page/main_page.dart';
 
 class DescriptionTile extends StatelessWidget{

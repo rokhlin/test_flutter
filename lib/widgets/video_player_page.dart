@@ -1,4 +1,5 @@
-import 'package:test_flutter/model/MediaObject.dart';
+import 'package:test_flutter/model/cnn_entity/MediaObject.dart';
+import 'package:test_flutter/model/media_object.dart';
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,7 @@ class _VideoPageState extends State<VideoPage> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.network(_mediaObject.videoID)
+    _controller = VideoPlayerController.network(_mediaObject.video.path)
       ..initialize().then((_) {
 
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
