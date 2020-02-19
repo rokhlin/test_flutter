@@ -4,7 +4,8 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:test_flutter/model/MediaObject.dart';
 import 'package:test_flutter/model/MediaObjectList.dart';
 
-class MediaObjectsRepository {
+
+class MediaObjectsRepository {//Interface
     Future<List<MediaObject>> fetchMovies(){}
 }
 

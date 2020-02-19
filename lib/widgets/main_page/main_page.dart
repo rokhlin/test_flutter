@@ -17,10 +17,10 @@ class CommonThings {
 
 
 class _HomeState extends State<MainPage> {
-  static int _numOfColumns = 3;
-  static List<MediaObject> _mediaObjects = List();
+  int _numOfColumns = 3;
+  List<MediaObject> _mediaObjects = List();
 
-  static MediaObjectsRepository repository = LocalMediaObjectsRepository();
+  final MediaObjectsRepository repository = LocalMediaObjectsRepository();
 
   getMovies() async {
     if (_mediaObjects.isEmpty) {

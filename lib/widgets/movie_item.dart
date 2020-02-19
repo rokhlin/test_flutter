@@ -21,7 +21,7 @@ class MovieItem extends StatelessWidget{
     return Padding(
       padding: EdgeInsets.symmetric(vertical: 15.0, horizontal: 12.0),
       child: GestureDetector(
-          onTap: () => navigateToDetailPage(context, mediaObject),
+          onTap: () => Router.navigateToDetailPage(context, mediaObject),
           child: Container(
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(

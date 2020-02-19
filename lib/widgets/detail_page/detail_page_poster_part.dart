@@ -120,7 +120,7 @@ class PosterPart extends StatelessWidget {
                       children: <Widget>[
                         GestureDetector(
                             onTap: () =>
-                                navigateToVideoPage(context, mediaObject),
+                                Router.navigateToVideoPage(context, mediaObject),
                             child: Text(
                               "Play Now",
                               style: TextStyle(
