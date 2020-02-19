@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:test_flutter/entity/MediaObject.dart';
-import 'package:test_flutter/main.dart';
 import 'package:test_flutter/widgets/detail_page/video_detile_item.dart';
+import 'package:test_flutter/widgets/main_page/main_page.dart';
 
 class VideoDetailList extends StatelessWidget{
   final MediaObject _mediaObject;

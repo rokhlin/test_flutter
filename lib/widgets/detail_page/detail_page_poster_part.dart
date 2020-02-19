@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
 import 'package:test_flutter/entity/MediaObject.dart';
-import 'package:test_flutter/main.dart';
 import 'package:test_flutter/navigation/navigator.dart';
+import 'package:test_flutter/widgets/main_page/main_page.dart';
 import 'package:test_flutter/widgets/mc_clipper.dart';
 
 class PosterPart extends StatelessWidget {
