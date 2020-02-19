@@ -22,15 +22,13 @@ class _DetailPageState extends State<DetailPage> {
     print("-------isPortrait: $isPortrait");
 
     return Scaffold(
+      backgroundColor: Colors.grey,
       body: OrientationBuilder(
         builder: (context, orientation){
           isPortrait = orientation == Orientation.portrait;
 
           return Container(
-              decoration: BoxDecoration(
-                color: Colors.grey,),
               child: SingleChildScrollView(
-                scrollDirection: isPortrait ? Axis.vertical : Axis.horizontal,
                 child: isPortrait
                     ? Column(
                   mainAxisSize: MainAxisSize.min,
@@ -41,8 +39,8 @@ class _DetailPageState extends State<DetailPage> {
                   ],
                 )
                     : Row(
-                  mainAxisSize: MainAxisSize.min,
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     DescriptionPart(widget.mediaObject, isPortrait),
                     PosterPart(widget.mediaObject, isPortrait),

@@ -17,8 +17,8 @@ class DescriptionPart extends StatelessWidget {
         padding: EdgeInsets.all(16),
         child: Column(
           children: <Widget>[
-            DescriptionTile(mediaObject),
-            VideoDetailList(mediaObject),
+            DescriptionTile(mediaObject, isPortrait),
+            VideoDetailList(mediaObject, isPortrait),
           ],
         ));
   }

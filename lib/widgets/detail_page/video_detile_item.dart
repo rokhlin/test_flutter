@@ -8,7 +8,11 @@ class VideoDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(10),
+      margin: EdgeInsets.only(
+        bottom: 15,
+        top: 15,
+        left: 10
+      ),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(10.0)),
           color: Colors.white,
@@ -23,7 +27,7 @@ class VideoDetails extends StatelessWidget {
           child: Text(this.mediaInfo,
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontSize: 15.0, fontFamily: "SF-Pro-Display-Bold"))),
+                  fontSize: 10.0, fontFamily: "SF-Pro-Display-Bold"))),
     );
   }
 }

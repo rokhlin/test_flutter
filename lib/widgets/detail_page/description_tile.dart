@@ -2,15 +2,18 @@
 
 import 'package:flutter/material.dart';
 import 'package:test_flutter/entity/MediaObject.dart';
+import 'package:test_flutter/main.dart';
 
 class DescriptionTile extends StatelessWidget{
   final MediaObject _mediaObject;
+  final bool isPortrait;
 
-  DescriptionTile(this._mediaObject);
+  DescriptionTile(this._mediaObject, this.isPortrait);
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: CommonThings.size.width / (isPortrait ? 1 : 2),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(20.0),
@@ -26,7 +29,7 @@ class DescriptionTile extends StatelessWidget{
                 offset: Offset(0.0, 10.0))
           ]),
       child: Padding(
-          padding: EdgeInsets.all(35.0),
+          padding: EdgeInsets.all(15.0),
           child: Text(_mediaObject.description,
               textAlign: TextAlign.center,
               style: TextStyle(

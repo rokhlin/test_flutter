@@ -14,19 +14,14 @@ class PosterPart extends StatelessWidget {
   final bool isPortrait;
 
   getMainPageSize(double screenHeight, double screenWidth, double aspectRatio) {
-    String orientation = screenHeight > screenWidth ? "portrait" : "landscape";
-    print(
-        "Screen params: orientation: $orientation, $screenHeight x $screenWidth, aspectRatio: $aspectRatio");
 
-    if (orientation == "portrait") {
+    if (isPortrait) {
       mainPageHeight = screenWidth - (screenWidth / 10);
       mainPageWidth =
       aspectRatio > 1 ? screenWidth : screenWidth / (aspectRatio * 2);
     } else {
-      print("Not Implemented for Lanscape mode");
-      mainPageHeight = screenWidth - (screenWidth / 10);
-      mainPageWidth =
-      aspectRatio > 1 ? screenWidth : screenWidth / (aspectRatio * 2);
+      mainPageHeight = screenHeight -(screenHeight/10);
+      mainPageWidth = screenWidth / 2;
     }
   }
 
@@ -37,11 +32,15 @@ class PosterPart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
+
     return Stack(
       children: <Widget>[
         ClipPath(
           clipper: Mclipper(),
           child: Container(
+            alignment: AlignmentDirectional(1,-1),
             height: mainPageHeight,
             decoration: BoxDecoration(color: Colors.white, boxShadow: [
               BoxShadow(
@@ -58,7 +57,7 @@ class PosterPart extends StatelessWidget {
                     fit: BoxFit.cover,
                     width: isPortrait
                         ? double.infinity
-                        : mainPageWidth / 2 - mainPageWidth / 10),
+                        : null ),
                 Container(
                   height: double.infinity,
                   width: isPortrait ? double.infinity : mainPageWidth / 2,
